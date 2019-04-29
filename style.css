@@ -56,12 +56,14 @@ body{
 }
 
 
-.navbar .navbar-light .bg-light{
+.navbar{
     background-color: white;
+    justify-content: space-between;
 }
 
-@media (max-width: 768px) {
-    .navbar-light .bg-light {
+@media (max-width: 770px) {
+    .navbar {
         background-color: lightseagreen;
+        justify-content: space-between;
     }    
 }
