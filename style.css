@@ -67,3 +67,9 @@ body{
         justify-content: space-between;
     }    
 }
+
+@media (min-width: 1660px) {
+    .card-body {
+        padding-bottom: 400px;
+    }    
+}
